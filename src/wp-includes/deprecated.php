@@ -6431,6 +6431,7 @@ function current_user_can_for_blog( $blog_id, $capability, ...$args ) {
  * @internal
  *
  * @since 4.7.0
+ * @deprecated 6.8.0
  * @access private
  *
  * @link https://www.php.net/manual/en/function.parse-url.php
@@ -6455,6 +6456,7 @@ function _get_component_from_parsed_url_array( $url_parts, $component ) {
  * @internal
  *
  * @since 4.7.0
+ * @deprecated 6.8.0
  * @access private
  *
  * @link https://www.php.net/manual/en/url.constants.php
