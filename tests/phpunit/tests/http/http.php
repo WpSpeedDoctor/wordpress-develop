@@ -334,7 +334,7 @@ class Tests_HTTP_HTTP extends WP_UnitTestCase {
 	 * @ticket 62124
 	 *
 	 * @dataProvider data_get_component_from_parsed_url_array
-	 * 
+	 *
 	 * @expectedDeprecated _get_component_from_parsed_url_array
 	 *
 	 * @covers ::wp_parse_url
