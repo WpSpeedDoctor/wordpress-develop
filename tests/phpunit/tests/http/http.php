@@ -348,7 +348,7 @@ class Tests_HTTP_HTTP extends WP_UnitTestCase {
 	public function data_get_component_from_parsed_url_array() {
 		// 0: A URL, 1: PHP URL constant, 2: The expected result.
 		return array(
-			array(null,null,null)
+			array( null, null, null ),
 		);
 	}
 
@@ -370,7 +370,7 @@ class Tests_HTTP_HTTP extends WP_UnitTestCase {
 	public function data_wp_translate_php_url_constant_to_key() {
 		// 0: PHP URL constant, 1: The expected result.
 		return array(
-			array(null,null)
+			array( null, null ),
 		);
 	}
 
