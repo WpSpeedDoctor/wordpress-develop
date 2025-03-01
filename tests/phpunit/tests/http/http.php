@@ -357,9 +357,9 @@ class Tests_HTTP_HTTP extends WP_UnitTestCase {
 	 * @ticket 62124
 	 *
 	 * @dataProvider data_wp_translate_php_url_constant_to_key
-	 * 
+	 *
 	 * @expectedDeprecated _wp_translate_php_url_constant_to_key
-	 * 
+	 *
 	 * @coversNothing
 	 */
 	public function test_wp_translate_php_url_constant_to_key( $input, $expected ) {
